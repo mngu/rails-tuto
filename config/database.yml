@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
-  database: first_app_production
-  username: first_app
-  password: <%= ENV['FIRST_APP_DATABASE_PASSWORD'] %>
+  url: postgres://kjtotggfgbqhfz:Y7dbMceO4n4JSolkpS85xGs8Rj@ec2-54-228-180-92.eu-west-1.compute.amazonaws.com:5432/d7m7rajtcv16i3
+  # database: first_app_production
+  # username: first_app
+  # password: <%= ENV['FIRST_APP_DATABASE_PASSWORD'] %>
